@@ -1,0 +1,2 @@
+# Osint-for-Defenders
+This workshop offers an in-depth exploration of Open-Source Intelligence (OSINT) methodologies & tools, focusing on how to map your digital IT assets, uncover potential exposures, and proactively mitigate cyber risks. Leveraging freely available or low-cost online tools, you'll learn to assess your organization from an adversary’s perspective—gaining critical insights to fortify your security posture and enhance overall cyber resilience.
