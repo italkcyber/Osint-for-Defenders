@@ -126,8 +126,8 @@ A curated list of web-based tools, browser extensions, and services to support d
 | [ViewDNS – Subdomains](https://viewdns.info/subdomains/?domain=) | Free | Domain | Subdomains, IPs. |
 | [HackerTarget – DNS Host Records](https://hackertarget.com/find-dns-host-records/) | Free | Domain | Host records, subdomains, IPs. |
 | [VirusTotal](https://www.virustotal.com/gui/home/search) | Free | Domain, subdomain, IP, hash | Related domains, subdomains, IPs, historical IPs. |
-| [VirusTotal Domain API]<br>https://www.virustotal.com/vtapi/v2/domain/report?apikey=Enter_APIKEY&domain=EXAMPLE.COM | Free API | Domain, API key | Domains, subdomains, IPs, historical IPs, hashes, URLs. |
-| [VirusTotal IP API]<br>https://www.virustotal.com/vtapi/v2/ip-address/report?apikey=Enter_APIKey&ip=Enter_IP | Free API | IP, API key | Domains, subdomains, IPs, historical IPs, hashes, URLs. |
+| [VirusTotal Domain API]<br>https://www.virustotal.com/vtapi/v2/domain/report?apikey=Enter_APIKEY&domain=EXAMPLE.COM | Domain| Domain, API key | Domains, subdomains, IPs, historical IPs, hashes, URLs. |
+| [VirusTotal IP API]<br>https://www.virustotal.com/vtapi/v2/ip-address/report?apikey=Enter_APIKey&ip=Enter_IP | Domain| IP, API key | Domains, subdomains, IPs, historical IPs, hashes, URLs. |
 | [SecurityTrails – Subdomains](https://securitytrails.com/list/keyword) | Free | Domain, keyword | Subdomains for given keyword/domain. |
 
 ---
@@ -138,8 +138,8 @@ A curated list of web-based tools, browser extensions, and services to support d
 
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
-| [Shodan – Advanced Search](https://www.shodan.io/search/advanced) | Free | Advanced query | Internet-exposed services by many filters. |
-| [Shodan – Facet Search](https://www.shodan.io/search/facet) | Free | ASN, IP, CIDR, port, domain, subdomain, SSL, OS, etc. | Aggregated stats by facet; tech, ports, fraud sites. |
+| [Shodan – Advanced Search](https://www.shodan.io/search/advanced) | Free | ASN, IP, CIDR, port, domain, subdomain, SSL, favicon, OS, website title, product, country | ASN, IP, original IP, port, domain, subdomain, technology, SSL, fraudulent websites, country, favicon |
+| [Shodan – Facet Search](https://www.shodan.io/search/facet) | Free | ASN, IP, CIDR, port, domain, subdomain, SSL, favicon, OS, website title, product, country | ASN, IP, original IP, port, domain, subdomain, technology, SSL, fraudulent websites, country, favicon|
 | [FOFA](https://en.fofa.info/) | Free | ASN, IP, CIDR, port, domain, headers, body, favicon, SSL | Hosts, technologies, suspected fraudulent sites. |
 | [Zoomeye](https://www.zoomeye.ai) | Free | ASN, IP, CIDR, port, domain, headers, body, favicon, SSL | Hosts, technologies, suspected fraudulent sites. |
 
@@ -156,7 +156,7 @@ A curated list of web-based tools, browser extensions, and services to support d
 
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
-| [Wappalyzer](https://www.wappalyzer.com/apps/) | Free | URL | Server stack, frameworks, CMS, analytics, etc. |
+| [Wappalyzer](https://www.wappalyzer.com/apps/) | Free | URL | Server stack, frameworks, CMS, analytics. |
 | [WebTechSurvey](https://webtechsurvey.com/) | Free | URL | Technologies, redirects, IP, reverse IP, ASN, linked domains, tech changes. |
 
 ### DNS / SPF / Tenant Intelligence
