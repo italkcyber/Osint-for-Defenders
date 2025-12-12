@@ -197,8 +197,8 @@ A curated list of web-based tools, browser extensions, and services to support d
 | [Exploit-DB GHDB](https://www.exploit-db.com/google-hacking-database) | Free | Dork, keyword | Curated dorks for sensitive content. |
 | [Pentest-Tools Google Hacking](https://pentest-tools.com/information-gathering/google-hacking) | Free | Dork, keyword | Automated Google dorking for targets. |
 | [Postman via Google](https://www.google.com/) | Free | `site:documenter.getpostman.com <keyword>` | Public Postman docs, APIs, potential secrets/code. |
-| [GitHub Search](https://github.com/search) | Free | Dork, keywords | API keys, tokens, secrets, code, files. |
-| [Sourcegraph Search](https://sourcegraph.com/search) | Free | Dork, keywords | API keys, tokens, secrets, code, files. |
+| [GitHub](https://github.com/search) | Free | Dork, keywords | API keys, tokens, secrets, code, files. |
+| [Sourcegraph](https://sourcegraph.com/search) | Free | Dork, keywords | API keys, tokens, secrets, code, files. |
 
 ### Cloud Buckets & Shorteners
 
