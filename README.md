@@ -1,4 +1,4 @@
-# OSINT Tools Catalog
+# OSINT Web-Based Tools Catalog
 
 A curated list of web-based tools, browser extensions, and services to support defenders and investigators with discovery, enrichment, and analysis.
 
