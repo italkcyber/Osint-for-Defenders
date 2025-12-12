@@ -184,7 +184,7 @@ A curated list of web-based tools, browser extensions, and services to support d
 
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
-| [Wayback Machine](https://web.archive.org/web/*/DOMAIN*) | Free | Domain, subdomain | Historic site content, files, configs, secrets, emails. |
+| [Wayback Machine](https://web.archive.org/web/*/example.com*) | Free | Domain, subdomain | Historic site content, files, configs, secrets, emails. |
 | [Wayback CDX API]<br>https://web.archive.org/cdx/search/cdx?url=*.EXAMPLE.COM/*&collapse=urlkey&output=text&fl=original | Free | Domain, date, keyword | Historic URLs for further inspection. |
 | [Wayback CDX Filtered]<br>https://web.archive.org/cdx/search/cdx?url=*.EXAMPLE.COM/*&collapse=urlkey&output=text&from=2024&to=2025&filter=statuscode:(200)&fl=original&filter=original:.*\.(xls|sql|doc|ppt|zip|tar|gz|tgz|bak|7z|rar|log|cache|secret|db|backup|git|config|csv|bat|env|crt|pem|DS_Store|token|auth|password|login|admin|@|%40|apikey|api_key|dashboard|console|asc) | Free | Domain, date, keyword (with file/extension filters) | Filtered historic URLs likely containing sensitive files/secrets. |
 
