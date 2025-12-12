@@ -5,8 +5,6 @@ This beginner-friendly, hands-on course introduces participants to open-source i
 
 A curated list of web-based tools, browser extensions, and services to support defenders and investigators with discovery, enrichment, and analysis.
 
----
-
 ## Table of Contents
 
 - [Browser Extensions](#browser-extensions)
