@@ -1,6 +1,3 @@
-# OSINT for ASM Fundamentals
-This beginner-friendly, hands-on course introduces participants to open-source intelligence (OSINT) tools and techniques for proactive cyber defence. Attendees will learn how to identify and map an organisation’s external attack surface using freely available or low-cost online resources.
-
 # OSINT Tools Catalog
 
 A curated list of web-based tools, browser extensions, and services to support defenders and investigators with discovery, enrichment, and analysis.
