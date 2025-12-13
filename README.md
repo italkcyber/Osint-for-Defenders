@@ -15,7 +15,7 @@ A curated list of web-based tools, browser extensions, and services to support d
 - [Subdomains](#subdomains)
 - [Service Discovery](#service-discovery)
 - [Data Exposure](#data-exposure)
-- [Third-Party & Brand Misuse](#third-party--brand-misuse)
+- [Third-Party & Brand Abuse](#third-party--brand-abuse)
 
 ---
 
@@ -205,7 +205,7 @@ A curated list of web-based tools, browser extensions, and services to support d
 
 ---
 
-## Third-Party & Brand Misuse
+## Third-Party & Brand Abuse
 
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
