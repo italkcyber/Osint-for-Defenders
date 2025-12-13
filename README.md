@@ -37,8 +37,8 @@ A curated list of web-based tools, browser extensions, and services to support d
 
 | Tool | Type | Purpose |
 |:-----|:-----|:--------|
-| [NordVPN](https://refer-nordvpn.com/onoJadKqUxW) | Free (referral) | General-purpose VPN provider. |
-| [Surfshark](https://surfshark.club/friend/9mGyGfuL) | Free (referral) | General-purpose VPN provider. |
+| [NordVPN](https://refer-nordvpn.com/onoJadKqUxW) | Paid (referral) | General-purpose VPN provider. |
+| [Surfshark](https://surfshark.club/friend/9mGyGfuL) | Paid (referral) | General-purpose VPN provider. |
 
 ---
 
@@ -82,8 +82,8 @@ A curated list of web-based tools, browser extensions, and services to support d
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
 | [BGP](https://bgp.he.net) | Free (Global) | ASN, IP, company, keyword | ASN, ASN name, CIDR, WHOIS org and technical contact details. |
-| [RIPE DB](https://apps.db.ripe.net/db-web-ui/fulltextsearch) | Free (EU) | Company, ASN, IP, email, keyword | ASN, CIDR, company, WHOIS, email, person, address. |
-| [ARIN](https://whois.arin.net/ui/query.do) | Free (US) | Company, ASN, IP, email, keyword | ASN, CIDR, company, WHOIS, email, person, address. |
+| [RIPE DB](https://apps.db.ripe.net/db-web-ui/fulltextsearch) | Free (EU) | Company, ASN, IP, email, keyword | ASN, CIDR, company, WHOIS org and technical contact details. |
+| [ARIN](https://whois.arin.net/ui/query.do) | Free (US) | Company, ASN, IP, email, keyword | ASN, CIDR, company, WHOIS org and technical contact details. |
 
 ---
 
@@ -93,24 +93,24 @@ A curated list of web-based tools, browser extensions, and services to support d
 
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
-| [OnlineDnsLookup – Bulk Whois](https://www.onlinednslookup.com/bulk-domain-whois/) | Free | Domain list | Register/expiry dates, registrar, registrant, name servers. |
-| [ViewDNS – Whois](https://viewdns.info/whois/?domain) | Free | Domain | Register/expiry dates, registrar, registrant, name servers. |
+| [OnlineDnsLookup – Bulk Whois](https://www.onlinednslookup.com/bulk-domain-whois/) | Free | Domain | WHOIS org and technical contact details, register/expiry dates, name servers.|
+| [ViewDNS – Whois](https://viewdns.info/whois/?domain) | Free | Domain | WHOIS org and technical contact details, register/expiry dates, name servers. |
 
 ### Whois History & Reverse Whois
 
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
-| [Bigdomaindata – Whois History](https://www.bigdomaindata.com/whois-history/) | Free | Domain | Historic WHOIS, registrant, email, similar/fuzzy domains, typosquatting. |
-| [Whoxy – Reverse Whois](https://www.whoxy.com/reverse-whois/) | Free | Registrant name, email, company | Domains, registrar, created/expiry dates. |
-| [WhoisXMLAPI – Reverse Whois](https://tools.whoisxmlapi.com/reverse-whois-search) | Free Credits / Paid | Domain, organisation, registrant/admin email | Domains linked to seed. |
-| [Bigdomaindata – Reverse Whois](https://www.bigdomaindata.com/reverse-whois/) | Free | Domain, keyword, registrant, email, company, address, name server | Domains plus WHOIS timeline and registrant data. |
-| [Host.io](https://host.io/) | Free | Domain | Analytics IDs, DNS records, co-hosted domains, backlinks, redirects. |
+| [Bigdomaindata – Whois History](https://www.bigdomaindata.com/whois-history/) | Free | Domain | Historic WHOIS, WHOIS org and technical contact details, similar/fuzzy domains, typosquatting. |
+| [Whoxy – Reverse Whois](https://www.whoxy.com/reverse-whois/) | Free | Registrant name, email, company | WHOIS org and technical contact details, created/expiry dates. |
+| [WhoisXMLAPI – Reverse Whois](https://tools.whoisxmlapi.com/reverse-whois-search) | Free Credits / Paid | Domain, organisation, registrant or admin email | Domains. |
+| [Bigdomaindata – Reverse Whois](https://www.bigdomaindata.com/reverse-whois/) | Free | Domain, keyword, registrant, email, company, address, name server | WHOIS org and technical contact details, created/expiry dates. |
+| [Host.io](https://host.io/) | Free | Domain | Google Manager/Analytics IDs, copyright, A, AAAA, MX, NS, co-hosted domains, backlinks, links to domains, redirects to domains, third-party domains. |
 
 ### Reverse IP / NS / MX
 
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
-| [DNSLytics](https://search.dnslytics.com/) | Free | Domain, keyword, IP, CIDR, MX, tags | ASN, IP, domain, reverse MX/NS, analytics tags. |
+| [DNSLytics](https://search.dnslytics.com/) | Free | Domain, keyword, IP, CIDR, MX, Google Manager/Analytics IDs | ASN, IP, domain, reverse MX/NS, Domain, keyword, IP, CIDR, MX, Google Manager/Analytics IDs. |
 
 ---
 
@@ -119,13 +119,13 @@ A curated list of web-based tools, browser extensions, and services to support d
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
 | [crt.sh](https://crt.sh) | Free | Domain, company, SSL org | Domains, subdomains, cert CN, identity, issuer. |
-| [C99 Subdomain Finder](https://subdomainfinder.c99.nl) | Free | Domain | Subdomains, IPs. |
-| [ViewDNS – Subdomains](https://viewdns.info/subdomains/?domain=) | Free | Domain | Subdomains, IPs. |
-| [HackerTarget – DNS Host Records](https://hackertarget.com/find-dns-host-records/) | Free | Domain | Host records, subdomains, IPs. |
-| [VirusTotal](https://www.virustotal.com/gui/home/search) | Free | Domain, subdomain, IP, hash | Related domains, subdomains, IPs, historical IPs. |
+| [C99 Subdomain Finder](https://subdomainfinder.c99.nl) | Free | Domain | Subdomains, IP, WAF. |
+| [ViewDNS – Subdomains](https://viewdns.info/subdomains/?domain=) | Free | Domain | Subdomains, IP. |
+| [HackerTarget – DNS Host Records](https://hackertarget.com/find-dns-host-records/) | Free | Domain | Subdomains, IP. |
+| [VirusTotal](https://www.virustotal.com/gui/home/search) | Free | Domain, subdomain, IP, hash | Subdomains, IP, historical IP. |
 | [VirusTotal Domain API]<br>https://www.virustotal.com/vtapi/v2/domain/report?apikey=Enter_APIKEY&domain=EXAMPLE.COM | Domain| Domain, API key | Domains, subdomains, IPs, historical IPs, hashes, URLs. |
 | [VirusTotal IP API]<br>https://www.virustotal.com/vtapi/v2/ip-address/report?apikey=Enter_APIKey&ip=Enter_IP | Domain| IP, API key | Domains, subdomains, IPs, historical IPs, hashes, URLs. |
-| [SecurityTrails – Subdomains](https://securitytrails.com/list/keyword) | Free | Domain, keyword | Subdomains for given keyword/domain. |
+| [SecurityTrails – Subdomains](https://securitytrails.com/list/keyword) | Free | Domain, keyword | Subdomains. |
 
 ---
 
@@ -135,18 +135,18 @@ A curated list of web-based tools, browser extensions, and services to support d
 
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
-| [Shodan – Advanced Search](https://www.shodan.io/search/advanced) | Free | ASN, IP, CIDR, port, domain, subdomain, SSL, favicon, OS, website title, product, country | ASN, IP, original IP, port, domain, subdomain, technology, SSL, fraudulent websites, country, favicon |
-| [Shodan – Facet Search](https://www.shodan.io/search/facet) | Free | ASN, IP, CIDR, port, domain, subdomain, SSL, favicon, OS, website title, product, country | ASN, IP, original IP, port, domain, subdomain, technology, SSL, fraudulent websites, country, favicon|
-| [FOFA](https://en.fofa.info/) | Free | ASN, IP, CIDR, port, domain, headers, body, favicon, SSL | Hosts, technologies, suspected fraudulent sites. |
-| [Zoomeye](https://www.zoomeye.ai) | Free | ASN, IP, CIDR, port, domain, headers, body, favicon, SSL | Hosts, technologies, suspected fraudulent sites. |
+| [Shodan – Advanced Search](https://www.shodan.io/search/advanced) | Free | ASN, IP, CIDR, port, domain, subdomain, SSL, favicon, OS, website title, product, country | ASN, IP, original IP, port, domain, subdomain, technology, SSL, country, favicon, cloned websites. |
+| [Shodan – Facet Search](https://www.shodan.io/search/facet) | Free | ASN, IP, CIDR, port, domain, subdomain, SSL, favicon, OS, website title, product, country | ASN, IP, original IP, port, domain, subdomain, technology, SSL, fraudulent websites, country, favicon. |
+| [FOFA](https://en.fofa.info/) | Free | ASNs, IPs, CIDRs, ports, domains, website headers, website titles, website bodies, favicons, copyright, products, product versions, SSL | ASN, IP, original IP, port, domain, subdomain, technology, SSL, country, favicon, cloned websites. |
+| [Zoomeye](https://www.zoomeye.ai) | Free | ASNs, IPs, CIDRs, ports, domains, website headers, website titles, website bodies, favicons, copyright, products, product versions, SSL  | ASN, IP, original IP, port, domain, subdomain, technology, SSL, country, favicon, cloned websites. |
 
 ### Reverse IP & Historical IP
 
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
-| [ViewDNS – Reverse IP](https://viewdns.info/reverseip/?host=&t=1) | Free | IP | Domains and subdomains on IP. |
-| [SecurityTrails – Reverse IP](https://securitytrails.com/list/keyword) | Free | IP | Domains and subdomains on IP. |
-| [WhoisXMLAPI – Reverse IP](https://reverse-ip.whoisxmlapi.com/lookup) | Free | IP | Domains on IP with first/last seen dates. |
+| [ViewDNS – Reverse IP](https://viewdns.info/reverseip/?host=&t=1) | Free | IP | Domains, subdomains. |
+| [SecurityTrails – Reverse IP](https://securitytrails.com/list/keyword) | Free | IP | Domains, subdomains. |
+| [WhoisXMLAPI – Reverse IP](https://reverse-ip.whoisxmlapi.com/lookup) | Free | IP | Domains on IP, first/last seen dates. |
 | [SecurityTrails – Historical IP](https://securitytrails.com/list/keyword) | Free | Domain, subdomain | Historical IPs, org, first/last seen. |
 
 ### Technology Profiling
@@ -161,7 +161,7 @@ A curated list of web-based tools, browser extensions, and services to support d
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
 | [ThreatYeti](https://threatyeti.com/) | Free | Domain, URL, IP | IPs, shared IPs, subdomains, redirects, inbound/outbound links. |
-| [TenantIDLookup](https://tenantidlookup.com) | Free | Domain, tenant ID, UPN, URL | Azure AD tenant ID, default domain, org name, region, MX. |
+| [TenantIDLookup](https://tenantidlookup.com) | Free | Domain, tenant ID, URL | Azure AD tenant ID, default domain, org name, region, MX. |
 | [SPF-Record](https://www.spf-record.com/spf-lookup) | Free | Domain, subdomain | SPF IPs, third-party senders, domains. |
 | [OnlineDnsLookup – Bulk DNS](https://www.onlinednslookup.com/bulk-dns-lookup/) | Free | Domains, subdomains | ASN, ASN org, IPs, CNAMEs. |
 
@@ -180,20 +180,21 @@ A curated list of web-based tools, browser extensions, and services to support d
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
 | [Wayback Machine](https://web.archive.org/web/*/example.com*) | Free | Domain, subdomain | Historic site content, files, configs, secrets, emails. |
-| [Wayback CDX API]<br>https://web.archive.org/cdx/search/cdx?url=*.EXAMPLE.COM/*&collapse=urlkey&output=text&fl=original | Free | Domain, date, keyword | Historic URLs for further inspection. |
-| [Wayback CDX Filtered]<br>https://web.archive.org/cdx/search/cdx?url=*.EXAMPLE.COM/*&collapse=urlkey&output=text&from=2024&to=2025&filter=statuscode:(200)&fl=original&filter=original:.*\.(xls|sql|doc|ppt|zip|tar|gz|tgz|bak|7z|rar|log|cache|secret|db|backup|git|config|csv|bat|env|crt|pem|DS_Store|token|auth|password|login|admin|@|%40|apikey|api_key|dashboard|console|asc) | Free | Domain, date, keyword (with file/extension filters) | Filtered historic URLs likely containing sensitive files/secrets. |
+| [Wayback CDX API]<br>https://web.archive.org/cdx/search/cdx?url=*.EXAMPLE.COM/*&collapse=urlkey&output=text&fl=original | Free | Domain, date, keyword | Historic site content, files, configs, secrets, emails. |
+| [Wayback CDX Filtered]<br>https://web.archive.org/cdx/search/cdx?url=*.EXAMPLE.COM/*&collapse=urlkey&output=text&from=2024&to=2025&filter=statuscode:(200)&fl=original&filter=original:.*\.(xls|sql|doc|ppt|zip|tar|gz|tgz|bak|7z|rar|log|cache|secret|db|backup|git|config|csv|bat|env|crt|pem|DS_Store|token|auth|password|login|admin|@|%40|apikey|api_key|dashboard|console|asc) | Free | Domain, date, keyword (with file/extension filters) | Historic site content, files, configs, secrets, emails. |
 
 ### Google Dorking & Code Repos
 
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
 | [Google](https://www.google.com/) | Free | Dork, keyword | Domains, URLs, documents, files. |
-| [Ultimate Google Dork Generator](https://tools.fluxxset.com/Ultimate-Google-Dork-Generator/) | Free | Dork, keyword | Generated dorks to use in Google. |
-| [Exploit-DB GHDB](https://www.exploit-db.com/google-hacking-database) | Free | Dork, keyword | Curated dorks for sensitive content. |
-| [Pentest-Tools Google Hacking](https://pentest-tools.com/information-gathering/google-hacking) | Free | Dork, keyword | Automated Google dorking for targets. |
-| [Postman via Google](https://www.google.com/) | Free | `site:documenter.getpostman.com <keyword>` | Public Postman docs, APIs, potential secrets/code. |
-| [GitHub](https://github.com/search) | Free | Dork, keywords | API keys, tokens, secrets, code, files. |
-| [Sourcegraph](https://sourcegraph.com/search) | Free | Dork, keywords | API keys, tokens, secrets, code, files. |
+| [Ultimate Google Dork Generator](https://tools.fluxxset.com/Ultimate-Google-Dork-Generator/) | Free | Dork, keyword | Domains, URLs, documents, files. |
+| [Exploit-DB GHDB](https://www.exploit-db.com/google-hacking-database) | Free | Dork, keyword | Domains, URLs, documents, files. |
+| [Pentest-Tools Google Hacking](https://pentest-tools.com/information-gathering/google-hacking) | Free | Dork, keyword | ADomains, URLs, documents, files. |
+| [GitHub](https://github.com/search) | Free | Dork, keyword | API keys, tokens, secrets, code, files. |
+| [Sourcegraph](https://sourcegraph.com/search) | Free | Dork, keyword | API keys, tokens, secrets, code, files. |
+| [Postman via Google](https://www.google.com/)<br>`site:documenter.getpostman.com <keyword>` | Free | Dorks, domains, company names, keywords | Public Postman docs, APIs, potential secrets/code. |
+
 
 ### Cloud Buckets & Shorteners
 
@@ -208,10 +209,10 @@ A curated list of web-based tools, browser extensions, and services to support d
 
 | Tool | Type | Inputs (Seeds) | Outputs (Identifiers) |
 |:-----|:-----|:----------------|:-----------------------|
-| [URLScan](https://urlscan.io/search) | Free | Domain, URL, IP, hash, title, keyword | Subdomains, IPs, third-party use, clones, typosquats. |
+| [URLScan](https://urlscan.io/search) | Free | Dork, Domain, URL, IP, hash, title, keyword | Subdomains, IPs, third-party use, clones, typosquats. |
 | [KMSec – Favicon Hash](https://favicon-hash.kmsec.uk/) | Free | URL, filename, hash | Sites sharing favicon hash (similar/clone sites). |
-| [BuiltWith](https://builtwith.com) | Free | Domain, subdomain, keyword | Tech stack, GTM/GA IDs, clones, historical IPs. |
-| [Google – Trademark/Copyright](https://www.google.com) | Free | Dork, trademark, copyright (e.g. `"Example © 2025" -www`) | URLs, domains/subdomains using specified mark. |
+| [BuiltWith](https://builtwith.com) | Free | Domain, subdomain, keyword | Tech stack, Google Manager/Analytics IDs, clones, historical IP. |
+| [Google – Trademark/Copyright](https://www.google.com) | Free | Dork, trademark, copyright (e.g. `"Example © 2025" -www`) | URLs, domains/subdomains. |
 | [Bigdomaindata – Similar Domains](https://www.bigdomaindata.com/similar-domains) | Free | Domain, keyword | Similar domains, typosquats. |
 | [Bigdomaindata – Fuzzy Domains](https://www.bigdomaindata.com/fuzzy-domains/) | Free | Domain | Fuzzy/typo variants (typosquats). |
 | [Copyscape](https://www.copyscape.com/) | Free | URL, text | Plagiarised or cloned websites. |
